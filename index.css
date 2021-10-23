@@ -8,30 +8,7 @@ body{
     width: 225px;
     margin: 3px 3px;
 }
-a{
-    text-decoration: none;
-}
-.task_part1{
-    font-size: 10px;
-}
-.task_part1--image{
-    
-}
-.task_part2--name{
-    font-size: 13px;
-}
-.task_part2--gender{
-    font-size: 10px;
-}
-.task_part2--price{
-    font-size: 13px;
-    color:red;
-}
-.task_part2--buy{
-    background-color: #034ea1;
-    color:white;
-    width: 225px;
-    opacity: 0;
+
 
 }
 button:hover{
