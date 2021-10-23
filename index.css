@@ -1,46 +1,48 @@
 body{
+
+    font-family: Open Sans, sans-serif;
+    font-size: 16px;
+}
+
+.task_main{
     display: flex;
 }
 
 .task{
-    font-family: Open Sans, sans-serif;
-    height: 380px; 
-    width: 225px;
+    height: 23rem; 
+    width: 14rem;
 }
 
-a {
+.task_two a{
     text-decoration: none;
 }
 
-.task_part1{
-    font-size: 10px;
-    border-radius: 0%;
+.task_one{
+    font-size: 0.6rem;
+
 }
 
-.task_part1--image{
-    border-radius: 0%;
+
+.task_two--name{
+    font-size: 0.8rem;
 }
 
-.task_part2--name{
-    font-size: 13px;
+.task_two--gender{
+    font-size: 0.6rem;
 }
 
-.task_part2--gender{
-    font-size: 10px;
-}
-
-.task_part2--price{
-    font-size: 13px;
+.task_two--price{
+    font-size: 0.8rem;
     color:red;
 }
-.task_part2--buy{
+.task_two--buy{
     background-color: #034ea1;
     color:white;
-    width: 225px;
+    width: 14rem;
     opacity: 0;
 }
 
-button:hover{
-    opacity: 10;
+.task_two button:hover{
+    opacity: 1;
 }
 
