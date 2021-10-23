@@ -6,6 +6,7 @@ body{
     font-family: Open Sans, sans-serif;
     height: 380px; 
     width: 225px;
+    margin: 3px 3px;
 }
 a{
     text-decoration: none;
