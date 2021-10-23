@@ -1,7 +1,8 @@
 .task{
-    display: flex;
-    flex-direction: column;
-    font-family: Open Sans, sans-serif;   
+    
+    font-family: Open Sans, sans-serif;
+    height: 380px; 
+    width: 225px;
 }
 a{
     text-decoration: none;
@@ -17,8 +18,10 @@ a{
 }
 .task_part2--price{
     font-size: 13px;
+    color:red;
 }
 .task_part2--buy{
     background-color: #034ea1;
     color:white;
+
 }
