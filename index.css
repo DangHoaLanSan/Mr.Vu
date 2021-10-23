@@ -1,39 +1,24 @@
 .task{
     display: flex;
     flex-direction: column;
-    font-family: Open Sans, sans-serif;
-    text-decoration: none;
+    font-family: Open Sans, sans-serif;   
 }
 a{
     text-decoration: none;
 }
-.task_image{
-  
-}
-.task_size{
+.task_part1{
     font-size: 10px;
 }
-.task_size:hover{
-    font-size:13px;
+.task_part2--name{
+    font-size: 13px;
 }
-
-.task_name{
-    font-size:13px;
+.task_part2--gender{
+    font-size: 10px;
 }
-.task_gender{
-    font-size:10px;
+.task_part2--price{
+    font-size: 13px;
 }
-.task_price{
-    font-size: 14px;
-    color: red;
-}
-.task_buy{
-    
-}
-.task_buy:hover{
-   
-    background-color:#034ea1;
-    color: white;
-   
-    
+.task_part2--buy{
+    background-color: #034ea1;
+    color:white;
 }
