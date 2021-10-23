@@ -1,0 +1,39 @@
+.task{
+    display: flex;
+    flex-direction: column;
+    font-family: Open Sans, sans-serif;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+.task_image{
+  
+}
+.task_size{
+    font-size: 10px;
+}
+.task_size:hover{
+    font-size:13px;
+}
+
+.task_name{
+    font-size:13px;
+}
+.task_gender{
+    font-size:10px;
+}
+.task_price{
+    font-size: 14px;
+    color: red;
+}
+.task_buy{
+    
+}
+.task_buy:hover{
+   
+    background-color:#034ea1;
+    color: white;
+   
+    
+}
