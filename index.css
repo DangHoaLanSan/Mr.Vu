@@ -1,15 +1,48 @@
 body{
+
+    font-family: Open Sans, sans-serif;
+    font-size: 16px;
+}
+
+.task_main{
     display: flex;
 }
+
 .task{
-    
-    font-family: Open Sans, sans-serif;
-    height: 380px; 
-    width: 225px;
+    height: 23rem; 
+    width: 14rem;
+}
+
+.task_two a{
+    text-decoration: none;
+}
+
+.task_one{
+    font-size: 0.6rem;
+
 }
 
 
+.task_two--name{
+    font-size: 0.8rem;
 }
-button:hover{
+
+.task_two--gender{
+    font-size: 0.6rem;
+}
+
+.task_two--price{
+    font-size: 0.8rem;
+    color:red;
+}
+.task_two--buy{
+    background-color: #034ea1;
+    color:white;
+    width: 14rem;
+    opacity: 0;
+}
+
+.task_two button:hover{
     opacity: 1;
 }
+
